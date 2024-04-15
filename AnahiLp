@@ -3,6 +3,21 @@
 
 Este repositorio contiene una aplicación PHP CRUD (Create, Read, Update, Delete) simple. Es una demostración básica de cómo integrar PHP con una base de datos MySQL para gestionar datos de usuarios. La aplicación permite a los usuarios agregar, ver, editar y eliminar información de usuario.
 
+La introducción de una aplicación CRUD en PHP usualmente implica la integración de varios componentes clave:
+Backend en PHP: PHP es un lenguaje de programación de servidor ampliamente utilizado en el desarrollo web. Se utiliza para manejar las solicitudes del cliente, procesar datos y generar respuestas dinámicas.
+Base de Datos: Para almacenar y administrar datos, se utiliza un sistema de gestión de bases de datos (DBMS). En el contexto de PHP, se pueden utilizar varios DBMS populares, como MySQL, PostgreSQL o SQLite, entre otros.
+Interfaz de Usuario (UI): La interfaz de usuario permite a los usuarios interactuar con la aplicación. En una aplicación CRUD típica, esto podría incluir formularios para agregar o editar datos, así como vistas para mostrar información existente.
+
+Al integrar estos componentes, una aplicación CRUD en PHP proporciona una manera efectiva y eficiente de administrar datos en una base de datos. Desde aplicaciones de gestión de contenido hasta sistemas de gestión de inventario, las aplicaciones CRUD son una parte esencial del desarrollo web moderno.
+
+Operaciones CRUD: Cada una de las operaciones CRUD tiene su propia función en la aplicación:
+
+Create (Crear): Permite a los usuarios agregar nuevos registros a la base de datos.
+Read (Leer): Facilita la visualización de datos existentes, ya sea en forma de listas o detalles de un solo registro.
+Update (Actualizar): Permite a los usuarios modificar registros existentes en la base de datos.
+Delete (Eliminar): Proporciona la funcionalidad para eliminar registros de la base de datos.
+Seguridad: Es fundamental implementar medidas de seguridad para proteger la integridad de los datos y prevenir vulnerabilidades como inyecciones SQL y acceso no autorizado.
+
 ## Tecnologías Utilizadas
 
 - **PHP:** Lenguaje de script del lado del servidor utilizado para el desarrollo web.
